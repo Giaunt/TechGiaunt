@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-/* Desktop Navigation */
+ Desktop Navigation 
 .nav-menu ul {
   margin: 0;
   padding: 0;
@@ -628,9 +628,28 @@ section {
 /* Featured Services Section
 --------------------------------*/
 #featured-services {
-  background: #000;
+    background: #000;
 }
 
+
+/*@media (max-height: 500px) {
+  #featured-services {
+    height: 150vh;
+  }
+}
+
+#featured-services h2 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  #featured-services h2 {
+    font-size: 28px;
+  }
+}*/
 #featured-services .box {
   padding: 30px 20px;
 }
@@ -660,13 +679,24 @@ section {
   color: #18d26e;
 }
 
+
+/*@media (min-width: 1024px) {
+  #featured-services p {
+    width: 60%;
+  }
+}*/
+
 #featured-services p {
   font-size: 14px;
   line-height: 24px;
+  width: 80%;
+  margin: 0 auto 30px auto;
   color: #fff;
   margin-bottom: 0;
 }
-
+/*#featured-services .container {
+  text-align: center;
+}*/
 /* About Us Section
 --------------------------------*/
 #about {
@@ -883,6 +913,7 @@ section {
   background-size: cover;
   padding: 60px 0 0 0;
   position: relative;
+  
 }
 
 #facts::before {
@@ -892,35 +923,39 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.88);
+  background: #cdeacd; /*applemint*/
   z-index: 9;
 }
 
 #facts .container {
   position: relative;
   z-index: 10;
+
 }
 
-#facts .counters span {
+/*#facts .paragraph h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 48px;
   display: block;
-  color: #18d26e;
+  color: #080404;
+ 
 }
 
-#facts .counters p {
+#facts .paragraph p {
   padding: 0;
-  margin: 0 0 20px 0;
+  margin: 20px 0 20px 0;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   color: #111;
-}
+
+}*/
 
 #facts .facts-img {
   text-align: center;
   padding-top: 30px;
 }
+
 
 /* Portfolio Section
 --------------------------------*/
@@ -1509,6 +1544,7 @@ p.conversion{background: #cdeacd;
    
  h3.conversion{text-align: center;
    }
+   
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
