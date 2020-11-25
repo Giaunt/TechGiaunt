@@ -909,8 +909,9 @@ section {
 /* Facts Section
 --------------------------------*/
 #facts {
-  background: url("../img/facts-bg.jpg") center top no-repeat fixed;
-  background-size: cover;
+  /*background: url("../img/facts-bg.jpg") center top no-repeat fixed;
+  background-size: cover;*/
+  background: #cdeacd;
   padding: 60px 0 0 0;
   position: relative;
   
