@@ -1615,7 +1615,9 @@ p.conversion{background: #cdeacd;
 	padding-left: 10px;
 	}
 	.videoInsert {
-	position: absolute;
+		width:100% !important;
+		height: auto !important
+	/*position: absolute;
 	right: 0;
 	bottom: 0;
 	min-width: 100%;
@@ -1624,7 +1626,7 @@ p.conversion{background: #cdeacd;
 	height: auto;
 	z-index: -100;
 	background-size: cover;
-	overflow: hidden;
+	overflow: hidden;*/
 	}
 	
 /*--------------------------------------------------------------
