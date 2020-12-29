@@ -1605,7 +1605,16 @@ p.conversion{background: #cdeacd;
 /*--------------------------------------------------------------
 # Video
 --------------------------------------------------------------*/
-	.videoInsert{
+	.wrapper {
+	margin-right: auto;
+	margin-left: auto;
+	
+	max-width: 960px;
+		
+	padding-right: 10px;
+	padding-left: 10px;
+	}
+	.videoInsert {
 	position: absolute;
 	right: 0;
 	bottom: 0;
